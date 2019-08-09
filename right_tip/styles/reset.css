@@ -1,0 +1,19 @@
+#app .screen-wrapper .v-block .header {
+  color: #0b87ed;
+}
+#app .screen-wrapper .v-block {
+  color: #0c94ff;
+}
+.bin-table table {
+  font-size: 16px;
+}
+.table1 {
+  font-size: 16px;
+}
+.zoom-btn {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+  z-index: 20;
+}

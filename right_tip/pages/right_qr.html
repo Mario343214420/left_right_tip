@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+<!--  <link rel="stylesheet" href="../styles/reset.css">-->
+  <style>
+    html, body {
+      height: 3000px;
+    }
+  </style>
+</head>
+<body>
+<div class="qr">
+
+
+</div>
+</body>
+<script src="../js/qr-copy.js">
+</script>
+<script>
+  arr1=[
+    {src:'../qrImages/qr_img_02.png',url:'###'},
+    {src:'../qrImages/qr_img_04.png',url:'###'},
+    {src:'../qrImages/qr_img_06.png',url:'###'},
+    {src:'../qrImages/qr_img_08.png',url:'###'},
+    {src:'../qrImages/qr_img_10.png',url:'###'},
+  ]
+  qrs1=['../qrImages/rc_app.png','../qrImages/rc_app.png','../qrImages/qr_img_02.png','../qrImages/rc_app.png','../qrImages/rc_app.png',]
+  qrs2=['../qrImages/rc_app.png','../qrImages/rc_app.png','../qrImages/rc_app.png','../qrImages/rc_app.png','../qrImages/rc_app.png',]
+  arr2=[
+    {src:'../qrImages/qr_img_02.png',url:'###'},
+    {src:'../qrImages/qr_img_04.png',url:'###'},
+    {src:'../qrImages/qr_img_06.png',url:'###'},
+    {src:'../qrImages/qr_img_08.png',url:'###'},
+    {src:'../qrImages/qr_img_10.png',url:'###'},
+  ]
+  addLR('l',arr1,qrs1)//arr1：右侧圆角悬浮位置图片及跳转地址 //qrs1：悬浮后显示二维码图片
+  //addLR(arr1,arr2,qrs1,qrs2,'lr')
+
+</script>
+</html>
